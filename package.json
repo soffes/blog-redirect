@@ -1,0 +1,25 @@
+{
+  "name": "soffes-blog-redirect",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
+    "spec": "mocha -R test test/server.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "description": "Redirect for old blog domains",
+  "repository": "https://github.com/soffes/blog-redirect",
+  "homepage": "https://soffes.blog",
+  "author": {
+    "name": "Sam Soffes",
+    "email": "sam@soff.es",
+    "url": "https://soff.es"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
