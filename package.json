@@ -1,5 +1,5 @@
 {
-  "name": "soffes-blog-redirect",
+  "name": "blog-redirect",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon server.js",
