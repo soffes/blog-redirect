@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "NODE_ENV=production node server.js",
-    "spec": "mocha -R test test/server.js"
+    "test": "ava"
   },
   "main": "app.js",
   "dependencies": {
@@ -20,6 +20,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "ava": "^0.19.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }
